@@ -4,7 +4,10 @@
 // import MainContent from "./components/MainContent"
 // import Footer from "./components/Footer"
 
-import WelcomeMessage from "./components/WelcomeMessage"
+// import WelcomeMessage from "./components/WelcomeMessage"
+
+import Greeting from "./components/Greeting"
+import ProductInfo from "./components/ProductInfo"
 
 function App(){
   return (
@@ -13,7 +16,9 @@ function App(){
       {/* <Header/>
       <MainContent/>
       <Footer/> */}
-      <WelcomeMessage/>
+      {/* <WelcomeMessage/> */}
+      <Greeting/>
+      <ProductInfo/>
     </>
   )
 }
